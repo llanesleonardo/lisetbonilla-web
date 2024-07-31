@@ -1,0 +1,764 @@
+body {
+    background-color: white;
+    margin: 0;
+    box-sizing: content-box;
+
+}
+
+#headerwrapper{
+    background-color: #e6e5e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#header{
+    max-width:100%;
+}
+
+.headerimg{
+    width: 100%;
+
+}
+
+#container{
+    width: 100%;
+}
+#bookswrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#books,.booklist_wrapper{
+    width: 100%
+}
+
+.titlebooks{
+    
+   
+}
+
+.titlebooks p{
+    background-color:#d82f87 ;
+    padding: 10px 30px 10px 30px;
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.booklist_item{
+    color: #5b5b5b;
+    font-size: 16px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.booklist{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left:0 ;
+}
+
+
+#maincontentwrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#maincontent {
+     background-color: #f3e9ee;  
+     width:90%;
+     padding: 5%;
+}
+
+#maincontent p{
+    color: #5b5b5b;
+    font-size: 14px;
+    font-weight: bold;
+}
+#businesscontactwrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    width: 100%; 
+}
+
+#businesscontact{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}
+
+#businesscontact img {
+    width: 60px;
+}
+
+#businesscontact p{
+    color:#d82f87 ;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#socialcontactwrapper{
+    background-color:#d82f87 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}
+
+
+#socialcontact{
+    width: 100%;
+    background-color:#d82f87 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+
+#socialcontact p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#socialcontact1{
+    width: 100%;
+}
+#socialcontact2{
+    width: 100%;
+}
+#socialcontact3{
+    width: 100%;
+}
+.imagebusinesscontact_img1{
+    width: 20px;
+}
+
+.imagebusinesscontact_img2{
+    width: 50px;
+}
+.imagebusinesscontact_img3{
+    width: 20px;
+}
+
+
+
+.portadas{
+    width: 300px;
+}
+
+.waContainermovil{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.waContainerpc{
+    display: none;
+}
+
+.waImg{
+    width: 60px;
+    margin-left: 10px;
+}
+
+.waContainermovil p{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.bgpink{
+    background-image: url("./assets/bgliset.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100hv;
+}
+
+.fullw{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.fullh{
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.profile
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+}
+
+.share{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+    min-width: 350px;
+    width: 350px;
+    padding-top: 20px;
+    margin: auto;   
+}
+
+.shareImg{
+    max-width: 100px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.xsmalltext{
+    display: block;
+    font-size: 8px;
+    color: black;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    min-width: 350px;
+}
+
+.profileImg{
+    width: 250px;
+}
+.logoImg{
+    width: 350px;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    min-width: 350px;
+}
+
+.desctext{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social{
+    min-width: 350px;
+    padding-bottom: 30px;
+}
+
+.sociallist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.sociallistitem{
+    width: 350px;
+}
+
+
+.socialImg{
+    min-width: 350px;
+    width: 350px;
+}
+
+
+
+
+#contactForm {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contactform_container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    /*background-color: white;*/
+    width: 350px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .contactform_container form  {
+    color: wheat;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    width:350px;
+    flex-wrap: wrap;
+  }
+  
+  .complexFormBox{
+   display: none;
+  }
+  
+  .complexFormBox_m{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .complexFormBoxLevel2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .contactform_container form input{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 280px;
+    height: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #d83087;
+    caret-color: black;
+    color: black;
+  }
+
+  .contactform_container form input::placeholder{
+    color: black;
+  }
+  
+  .contactform_container form textarea{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 280px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    caret-color: white;
+    color: white;
+  }
+  
+  .submitButton{
+    border-radius: 30px;
+    padding: 10px 40px;
+    background-color: aqua;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .error{
+    color: red;
+  }
+  
+  .messageForm{
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+  }
+  
+
+  .contact_content {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    width: 95%;
+    margin: 15px auto;
+  }
+  
+  .contact_title {
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+  }
+  
+  .contact_container {
+    /*background-color: black;*/
+    padding: 30px 0px 30px 0px;
+  }
+  
+  .contact_content_link {
+    color: aqua;
+    text-decoration: none;
+  }
+  
+  .cafespaimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cafespaimg img{
+    width: 300px;
+    margin-top: 50px;
+}
+
+
+.linkwhatsapp{
+    background-color: #00afb7;
+    padding: 20px 20px;
+    cursor: pointer;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.linkwhatsapp a{
+    color: black;
+    text-decoration: none;
+}
+
+.linkfacebook{
+    background-color: #0866ff;
+    padding: 20px 20px;
+    cursor: pointer;  
+   
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.linkfacebook a{
+    color: white; 
+    text-decoration: none;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+   
+   
+    
+
+    .waContainermovil{
+        display: none;
+    }
+
+    .waContainerpc{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .waContainerpc p{
+        font-weight: bold;
+        color: black;
+        font-size: 24px;
+    }
+    
+   
+    .waImg{
+        width: 60px;
+        margin-left: 30px;
+    }
+  
+    #header{
+        max-width: 1200px;
+    }
+   
+    #books,.booklist_wrapper{
+        width: 1200px;
+    }
+    
+
+    .titlebooks p{
+        background-color:#d82f87 ;
+        padding: 10px 30px 10px 30px;
+        margin: 0;
+        font-size: 26px;
+        color: white;
+        font-weight: bold;
+    }
+
+    #maincontent {
+        background-color: #f3e9ee;  
+        width: 1160px;
+        padding: 16px;
+   }
+.booklist_item{
+    color: #5b5b5b;
+    font-size: 24px;
+    font-weight: bold;
+}
+    #maincontent p{
+        color: #5b5b5b;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #businesscontact{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+        width: 1200px;
+    }
+
+    #businesscontact img {
+        width: 60px;
+    }
+    
+  
+    #businesscontact p{
+        color:#d82f87 ;
+        font-size: 30px;
+        font-weight: bold;
+    }
+   
+    #socialcontact{
+        width: 100%;
+        background-color:#d82f87 ;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+        gap: 100px;
+    }
+    #socialcontact p{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #socialcontact1{
+        width: 400px;
+    }
+
+
+    #socialcontact2{
+        width: 400px;
+    }
+    #socialcontact3{
+        width: 400px;
+    }
+
+    .imagebusinesscontact_img1{
+        width: 50px;
+    }
+
+    .imagebusinesscontact_img2{
+        width: 100px;
+    }
+    .imagebusinesscontact_img3{
+        width: 50px;
+    }
+
+    .portadas{
+        width: 250px;
+    }
+
+
+
+    
+#contactForm {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .contactform_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   /* background-color: white;*/
+    width: 850px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .contactform_container form  {
+    color: wheat;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    width:850px;
+    flex-wrap: wrap;
+  }
+  
+  .complexFormBox{
+   display: none;
+  }
+  
+  .complexFormBox_m{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .complexFormBoxLevel2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .contactform_container form input{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 280px;
+    height: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #d83087;
+    caret-color: black;
+    color: black;
+  }
+  
+  .contactform_container form textarea{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 280px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    caret-color: white;
+    color: white;
+  }
+  
+  .submitButton{
+    border-radius: 30px;
+    padding: 10px 150px;
+    background-color: #00afb7;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  /*  border:1px solid white;*/
+  }
+  
+  .error{
+    color: red;
+  }
+  
+  .messageForm{
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
+  .contact_content {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    width: 95%;
+    margin: 15px auto;
+  }
+  
+  .contact_title {
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+  }
+  
+  .contact_container {
+    /*background-color: black;*/
+    padding: 30px 0px 30px 0px;
+  }
+  
+  .contact_content_link {
+    color: #d83087;
+    text-decoration: none;
+  }
+
+  .cafespaimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cafespaimg img{
+    width: 600px;
+    margin-top: 50px;
+}
+
+.contactform_container form input::placeholder{
+    color: black;
+  }
+
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+//*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
