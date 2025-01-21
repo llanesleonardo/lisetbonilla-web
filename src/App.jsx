@@ -16,6 +16,7 @@ function App() {
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/business-card" element={<BusinessCard />} />
             <Route exact path="/weeklycoffee" element={<WeeklyCoffeePage />} />
+            <Route exact path="/webinar" element={<WeeklyCoffeePage />} />
             <Route exact path="/registerLinkAndMore" element={<registerLinkAndMore />} />
           </Routes>
         </Layout>
