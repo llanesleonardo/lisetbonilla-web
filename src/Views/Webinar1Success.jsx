@@ -6,31 +6,30 @@ const Webinar1Success = () => {
   return (
     <div className="webinar-container">
       {/* Welcome Message */}
-      <h1 className="webinar-title">Welcome to Our Exclusive Webinar</h1>
+      <h1 className="webinar-title">PODER Y AUTOCONFIANZA</h1>
       <div className="cafespaimg">
         <img src='http://localhost:5173/src/assets/profileliset.png' />
       </div>
       {/* Dummy Content */}
       <div className="webinar-content">
         <p>
-          Join us for an engaging session filled with insights and opportunities
-          to connect with industry leaders.
+        Que emoción que estés aquí Bienvenida ! 
+
         </p>
         <p>
-          In this webinar, we will explore the latest trends and best practices
-          in the field.
+        Soy tu amiga Liset Bonilla y he preparado todo a detalle para que éste Reto y webinar sea una experiencia maravillosa para ti .
+
         </p>
         <p>
-          Don’t miss out on this chance to learn and grow with a community of
-          like-minded individuals.
+        Te prometo que después de esto vas a tener una nueva visión de la vida y sobre todo de ti misma.
+
         </p>
         <p>
-          Stay tuned for interactive Q&A sessions, expert panels, and much
-          more!
+        La vida que te mereces está esperando por ti .
+
         </p>
         <p>
-          We look forward to having you with us. Secure your spot now and get
-          ready for an unforgettable experience.
+        Comencemos !
         </p>
       </div>
 
@@ -59,7 +58,15 @@ const Webinar1Success = () => {
     </div>
       {/* Thank You Message */}
       <div className="webinar-thank-you">
-        <p>Thank you for joining us. We can't wait to see you at the webinar!</p>
+        <p>Gracias por unirte a nosotros. ¡Estamos ansiosos por verte en el webinar!
+
+
+
+
+
+
+
+</p>
       </div>
     </div>
   );
