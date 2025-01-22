@@ -1,25 +1,25 @@
 import React from "react";
 import "../App.css";
 import CafeSpa from "../assets/cafespa.jpeg";
-import ContactForm from "../Components/WeeklyCoffeeContactForm"
+import ContactForm from "../Components/WebinarContactForm"
 import ResponsiveMenu from '../Components/ResponsiveMenu';
 
-const WeeklyCoffeePage = () => {
+
+const Webinar1 = () => {
   return (
-    <>
-    <div className=" bgpink">
-    <ResponsiveMenu />
+    <div className="bgpink">
+        <ResponsiveMenu />
     <div className="containerWebinar">
     <div>
       <div className="cafespaimg">
-        <img src={CafeSpa} />
+        <img src='https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/webinar1liset/webinar1liset2.jpeg' />
       </div>
     </div>
       <div className="contact_container">
-        <h1 className="contact_title font-face-psb">Registro oficial para el <br/> CAFE SPA - LISET BONILLA</h1>
+        <h1 className="contact_title font-face-psb">Registro oficial</h1>
         <p className="contact_content font-face-psr">
-          Completa los datos y únete a link de whatsapp.<br/> 
-          Sus datosestarán protegidos.
+          Completa el formulario y únete al grupo de whatsapp.<br/> 
+          Sus datos estarán protegidos.
         </p>
         {/*<p className="contact_content font-face-psr">
           Puedes consultar el Aviso de Privacidad simplificado{" "}
@@ -36,11 +36,9 @@ const WeeklyCoffeePage = () => {
         </div>
       </div>
       </div>
-      </div>
-    </>
+    </div>
   );
 };
 
-export default WeeklyCoffeePage;
-
+export default Webinar1;
 

@@ -13,6 +13,7 @@ import youtube from "../assets/youtube.png"
 import shareButton from "../assets/shareicon.png"
 import whatsapp from "../assets/whatsapp.png";
 import cafesemanal from "../assets/cafesemanal.png";
+import ResponsiveMenu from '../Components/ResponsiveMenu';
 
 
  const BusinessCard = () => {
@@ -43,6 +44,7 @@ const handleClick = async () =>{
 
   return (
     <div className=" bgpink">
+      <ResponsiveMenu />
       <div className="share">
       <p className="xsmalltext">{copyUrl ? 'Website link copiado a papelera': ''}</p>
         <motion.img 

@@ -13,7 +13,7 @@ import youtube from "../assets/youtube.png"
 import shareButton from "../assets/shareicon.png"
 
 
- const registerLinkAndMore = () => {
+ const RegisterLinkAndMore = () => {
 const [copyUrl,setCopyUlr] = useState(false);
 
 const handleClick = async () =>{
@@ -75,4 +75,4 @@ const handleClick = async () =>{
   )
 }
 
-export default registerLinkAndMore;
+export default RegisterLinkAndMore;

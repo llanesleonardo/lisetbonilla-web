@@ -10,6 +10,7 @@ import portada1 from '../assets/portada1.png';
 import portada2 from '../assets/portada2.png';
 import portada3 from '../assets/portada3.png';
 import portada4 from '../assets/portada4.jpg';
+import ResponsiveMenu from '../Components/ResponsiveMenu';
 
 
  const HomePage = () => {
@@ -17,6 +18,7 @@ import portada4 from '../assets/portada4.jpg';
     <>
       <div id="container">
       <div id="headerwrapper">
+        <ResponsiveMenu />
       <div id="header">
         
           <img src={header} className="headerimg"/>

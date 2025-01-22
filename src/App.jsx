@@ -4,7 +4,9 @@ import Layout from "./Layout/Layout.jsx"
 import HomePage from "./Views/HomePage.jsx"
 import BusinessCard from "./Views/BusinessCard.jsx"
 import WeeklyCoffeePage from "./Views/WeeklyCoffeePage"
-import registerLinkAndMore from "./Views/registerLinkAndMore"
+import Webinar1 from './Views/Webinar1.jsx';
+import Webinar1Success from './Views/Webinar1Success.jsx';
+
 
 function App() {
 
@@ -15,9 +17,8 @@ function App() {
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/business-card" element={<BusinessCard />} />
-            <Route exact path="/weeklycoffee" element={<WeeklyCoffeePage />} />
-            <Route exact path="/webinar" element={<WeeklyCoffeePage />} />
-            <Route exact path="/registerLinkAndMore" element={<registerLinkAndMore />} />
+            <Route exact path="/webinar-1" element={<Webinar1 />} />
+            <Route exact path="/webinar-1-success" element={<Webinar1Success />} />
           </Routes>
         </Layout>
       </Router>
