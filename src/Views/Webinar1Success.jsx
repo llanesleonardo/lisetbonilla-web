@@ -1,10 +1,7 @@
 import React from "react";
 import "../App.css"; // Assuming styles are defined here
-const navigate = useNavigate(); // Initialize navigate function
+import { useNavigate } from "react-router-dom"; // Import useNavigate from react-router-dom
 
-const handleGoBackHome = () => {
-  navigate("/"); // Redirect to the home page
-};
 import { FaWhatsapp, FaFacebook } from "react-icons/fa"; // Icons for WhatsApp and Facebook
 
 const Webinar1Success = () => {
@@ -43,11 +40,12 @@ const Webinar1Success = () => {
         <p>
         Comencemos !
         </p>
-      </div>
-
-
-      {/* WhatsApp and Facebook Icons */}
-      <div className="social-links">
+            {/* WhatsApp and Facebook Icons */}
+            <hr className="linepink"/>
+      <div className="whatsappwrapper">
+        <p>
+        ÚNETE a mi comunidad de MUJERES ESENCIALES y recibe notificaciones diarias.
+        </p>
         <a
           href="https://chat.whatsapp.com/HNXRtl536nX4Dd8RCjcIru" // Replace with actual WhatsApp link
           target="_blank"
@@ -56,11 +54,19 @@ const Webinar1Success = () => {
         >
           <FaWhatsapp size={50} />
         </a>
+
+      </div>
+      <div></div>
+      </div>
+
+
+      {/* WhatsApp and Facebook Icons */}
+      <div className="social-links">
         <button 
         onClick={handleGoBackHome} 
         className="go-back-home-btn"
       >
-        Go Back Home
+        Regresar a la página principal
       </button>
       </div>
       <div>

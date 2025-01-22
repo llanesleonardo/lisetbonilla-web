@@ -529,7 +529,7 @@ body {
   
   .social-icon {
     display: inline-block;
-    color: #fff;
+    color: #25d366;
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -538,7 +538,7 @@ body {
   }
   
   .social-icon.whatsapp {
-    background-color: #25d366; /* WhatsApp green */
+    background-color: white; /* WhatsApp green */
   }
   
   .social-icon.facebook {
@@ -591,6 +591,25 @@ body {
     padding: 20px 50px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Soft, multi-layer shadow */
     border-radius: 10px;
+  }
+
+  .go-back-home-btn{
+    background-color: #d82f87;  
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 60px;
+  }
+
+  .linepink{
+    background-color: #d82f87;
+    height: 2px;
+    width: 100%;
+    border: none;
   }
 
 /* Small devices (landscape phones, 576px and up)*/
