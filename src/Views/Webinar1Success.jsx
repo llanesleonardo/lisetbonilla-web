@@ -1,8 +1,20 @@
 import React from "react";
 import "../App.css"; // Assuming styles are defined here
+const navigate = useNavigate(); // Initialize navigate function
+
+const handleGoBackHome = () => {
+  navigate("/"); // Redirect to the home page
+};
 import { FaWhatsapp, FaFacebook } from "react-icons/fa"; // Icons for WhatsApp and Facebook
 
 const Webinar1Success = () => {
+
+  const navigate = useNavigate(); // Initialize navigate function
+
+  const handleGoBackHome = () => {
+    navigate("/"); // Redirect to the home page
+  };
+
   return (
     <div className="webinar-container">
       {/* Welcome Message */}
@@ -37,21 +49,19 @@ const Webinar1Success = () => {
       {/* WhatsApp and Facebook Icons */}
       <div className="social-links">
         <a
-          href="https://wa.me/1234567890" // Replace with actual WhatsApp link
+          href="https://chat.whatsapp.com/HNXRtl536nX4Dd8RCjcIru" // Replace with actual WhatsApp link
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon whatsapp"
         >
           <FaWhatsapp size={50} />
         </a>
-        <a
-          href="https://facebook.com" // Replace with actual Facebook link
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-icon facebook"
-        >
-          <FaFacebook size={50} />
-        </a>
+        <button 
+        onClick={handleGoBackHome} 
+        className="go-back-home-btn"
+      >
+        Go Back Home
+      </button>
       </div>
       <div>
 
