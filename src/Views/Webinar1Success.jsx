@@ -8,7 +8,7 @@ const Webinar1Success = () => {
       {/* Welcome Message */}
       <h1 className="webinar-title">PODER Y AUTOCONFIANZA</h1>
       <div className="cafespaimg">
-        <img src='http://localhost:5173/src/assets/profileliset.png' />
+        <img src='https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/webinar1liset/profileliset.png' />
       </div>
       {/* Dummy Content */}
       <div className="webinar-content">
