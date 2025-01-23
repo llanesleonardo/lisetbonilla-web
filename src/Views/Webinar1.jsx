@@ -18,8 +18,7 @@ const Webinar1 = () => {
       <div className="contact_container">
         <h1 className="contact_title font-face-psb">Registro oficial</h1>
         <p className="contact_content font-face-psr">
-          Completa el formulario y únete al grupo de whatsapp.<br/> 
-          Sus datos estarán protegidos.
+          Completa el formulario y <br/>únete al grupo de whatsapp.
         </p>
         {/*<p className="contact_content font-face-psr">
           Puedes consultar el Aviso de Privacidad simplificado{" "}
@@ -34,6 +33,8 @@ const Webinar1 = () => {
         <div id="contactForm">
           <ContactForm />
         </div>
+        <p style={{ color:'black',textAlign:'center'}}>
+        Tus datos estarán protegidos.</p>
       </div>
       </div>
     </div>

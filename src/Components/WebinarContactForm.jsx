@@ -39,25 +39,49 @@ const WebinarContactForm = () => {
     }
 
     try {
-      // Simulate a 1-second delay
+      setLoading(true); // Start the spinner
+    
+      // Make the API call
+      const response = await fetch(
+        `https://lisetweb.azurewebsites.net/api/mailchimpCreateMember`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-functions-key": process.env.FUNCTIONS_KEY
+          },
+          body: JSON.stringify(objectValues),
+        }
+      );
+    
+      const res = await response.json();
+      //console.log(res);
+    
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+    
+      // If the API call is successful, proceed with the redirect process
       setTimeout(() => {
         setStatusMessage(
           "THANK YOU FOR YOUR DATA. YOU ARE BEING REDIRECTED TO A WELCOME PAGE."
         );
-
+    
         // Start redirect after displaying the second message
         setTimeout(() => {
-          navigate("/webinar-1-success"); // Redirect after 1 more second
-          setLoading(false);
-        }, 2000); // Wait for 2 seconds after displaying the thank-you message
+          navigate("/webinar-1-success"); // Redirect after 2 more seconds
+          setLoading(false); // Stop the spinner after redirect
+        }, 2000);
       }, 1000); // Initial 1-second delay
+    
     } catch (error) {
       setErrors((prevErrors) => ({
         ...prevErrors,
-        server: "Algo salió mal, porfavor intentarlo en un momento.",
+        server: "Algo salió mal, por favor inténtelo en un momento.",
       }));
       setLoading(false); // Stop the spinner if there's an error
     }
+    
   };
 
   return (
