@@ -40,7 +40,15 @@ const WebinarContactForm = () => {
 
     try {
       setLoading(true); // Start the spinner
-    
+      const objectValues ={
+        "email_address": email,
+        "status": "subscribed",
+        "merge_fields": {
+          "FNAME": username,
+          "LNAME": lastname,
+          "PHONE": phone
+        }
+      }
       // Make the API call
       const response = await fetch(
         `https://lisetweb.azurewebsites.net/api/mailchimpCreateMember`,
