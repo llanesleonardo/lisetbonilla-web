@@ -66,7 +66,7 @@ const WebinarContactForm = () => {
       //console.log(res);
     
       if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.error}`);
+        throw new Error(res.error || `HTTP error! Status: ${response.status}`);
       }
     
       // If the API call is successful, proceed with the redirect process
@@ -85,9 +85,9 @@ const WebinarContactForm = () => {
     } catch (error) {
       setErrors((prevErrors) => ({
         ...prevErrors,
-        server: "Algo salió mal, por favor inténtelo en un momento. -> "+ error,
+        server: error.message || "Algo salió mal, por favor inténtelo en un momento.",
       }));
-      setLoading(false); // Stop the spinner if there's an error
+      setLoading(false);
     }
     
   };
