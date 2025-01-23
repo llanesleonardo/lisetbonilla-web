@@ -51,7 +51,7 @@ const WebinarContactForm = () => {
       }
       // Make the API call
       const response = await fetch(
-        `https://lisetweb.azurewebsites.net/api/mailchimpCreateMember`,
+        `https://lisetweb.azurewebsites.net/api/mailchimpLiset`,
         {
           method: "POST",
           headers: {
