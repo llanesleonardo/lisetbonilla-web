@@ -85,7 +85,7 @@ const WebinarContactForm = () => {
     } catch (error) {
       setErrors((prevErrors) => ({
         ...prevErrors,
-        server: "Algo salió mal, por favor inténtelo en un momento.",
+        server: "Algo salió mal, por favor inténtelo en un momento. -> "+ error,
       }));
       setLoading(false); // Stop the spinner if there's an error
     }
