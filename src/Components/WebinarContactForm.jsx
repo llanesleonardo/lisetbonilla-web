@@ -66,7 +66,7 @@ const WebinarContactForm = () => {
       //console.log(res);
     
       if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
+        throw new Error(`HTTP error! Status: ${response.error}`);
       }
     
       // If the API call is successful, proceed with the redirect process
