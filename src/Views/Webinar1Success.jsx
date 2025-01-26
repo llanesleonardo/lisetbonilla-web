@@ -49,7 +49,7 @@ const Webinar1Success = () => {
           Your browser does not support the video tag.
         </video>
         </div>
-        <p>
+        <p style={{fontWeight:'bold'}}>
         ÚNETE a mi comunidad de MUJERES ESENCIALES y recibe notificaciones diarias.
         </p>
         <a
@@ -58,7 +58,7 @@ const Webinar1Success = () => {
           rel="noopener noreferrer"
           className="social-icon whatsapp"
         >
-          <FaWhatsapp size={50} />
+          CLICK AQUI - <FaWhatsapp size={50} />
         </a>
 
       </div>

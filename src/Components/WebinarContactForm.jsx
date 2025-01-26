@@ -72,7 +72,7 @@ const WebinarContactForm = () => {
       // If the API call is successful, proceed with the redirect process
       setTimeout(() => {
         setStatusMessage(
-          "THANK YOU FOR YOUR DATA. YOU ARE BEING REDIRECTED TO A WELCOME PAGE."
+          "GRACIAS POR SU INFORMACIÓN. ESTÁ SIENDO REDIRIGIDO A UNA PÁGINA DE BIENVENIDA."
         );
     
         // Start redirect after displaying the second message
