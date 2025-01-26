@@ -15,13 +15,13 @@ const WeeklyCoffeePage = () => {
         <img src={CafeSpa} />
       </div>
     </div>
-      <div className="contact_container">
+     {/* <div className="contact_container">
         <h1 className="contact_title font-face-psb">Registro oficial para el <br/> CAFE SPA - LISET BONILLA</h1>
         <p className="contact_content font-face-psr">
           Completa los datos y únete a link de whatsapp.<br/> 
           Sus datosestarán protegidos.
         </p>
-        {/*<p className="contact_content font-face-psr">
+        <p className="contact_content font-face-psr">
           Puedes consultar el Aviso de Privacidad simplificado{" "}
           <a
             className="contact_content_link"
@@ -30,11 +30,11 @@ const WeeklyCoffeePage = () => {
           >
             aquí
           </a>
-        </p>*/}
+        </p>
         <div id="contactForm">
           <ContactForm />
         </div>
-      </div>
+      </div>*/}
       </div>
       </div>
     </>

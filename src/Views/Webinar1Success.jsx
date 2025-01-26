@@ -17,8 +17,8 @@ const Webinar1Success = () => {
       {/* Welcome Message */}
       <h1 className="webinar-title">PODER Y AUTOCONFIANZA</h1>
       <div className="cafespaimg">
-        <img src='https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/webinar1liset/profileliset.png' />
-      </div>
+        {/* <img style={{width:'200px'}} src='https://resumev1sa.blob.core.windows.net/treseledata/treseleweb/img/webinar1liset/profileliset.png' />
+      */}</div>
       {/* Dummy Content */}
       <div className="webinar-content">
         <p>
@@ -43,6 +43,12 @@ const Webinar1Success = () => {
             {/* WhatsApp and Facebook Icons */}
             <hr className="linepink"/>
       <div className="whatsappwrapper">
+        <div style={{paddingTop:'20px',paddingBottom:'20px'}}>
+        <video width="720" height="420" controls>
+          <source src='https://lisetwebrgbac6.blob.core.windows.net/webresources/Webinar1.mp4' type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        </div>
         <p>
         ÚNETE a mi comunidad de MUJERES ESENCIALES y recibe notificaciones diarias.
         </p>

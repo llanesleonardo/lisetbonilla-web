@@ -18,6 +18,7 @@ function App() {
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/business-card" element={<BusinessCard />} />
             <Route exact path="/webinar-1" element={<Webinar1 />} />
+            <Route exact path="/weeklycoffee" element={<WeeklyCoffeePage />} />
             <Route exact path="/webinar-1-success" element={<Webinar1Success />} />
           </Routes>
         </Layout>
