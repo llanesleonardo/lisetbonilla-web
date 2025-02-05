@@ -11,7 +11,7 @@ body {
     background-color: white;
     margin: 0;
     box-sizing: content-box;
-
+    height: auto;
 }
 
 #headerwrapper{
@@ -34,6 +34,7 @@ body {
 
 #container{
     width: 100%;
+    height: auto;
 }
 #bookswrapper{
     background-color: white;
@@ -612,6 +613,57 @@ body {
     border: none;
   }
 
+
+  .bookwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 0px;
+    border-bottom: 2px solid #f9f9f9;
+  }
+
+  .bookdesc{
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+
+  .stripebutton2{
+    width: 180px;
+    max-width: 310px;
+    padding: 15px 20px;
+    color: white;
+    background-color: #d82f87;
+    border:none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .stripebutton{
+    max-width: 310px;
+    padding: 20px 30px;
+    color: white;
+    background-color: #d82f87;
+    border:none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  #maincontentbooks{
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .stripebutton{
+    text-decoration: none;
+    font-weight: bold;
+  }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {  }
 
@@ -625,7 +677,25 @@ body {
 @media (min-width: 992px) { 
    
     
-   
+  .bookwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px 0px;
+    border-bottom: 2px solid #f9f9f9;
+  }
+
+  #maincontentbooks{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .bookdesc{
+    color: black;
+    text-align: left;
+    
+  }
 
     .waContainermovil{
         display: none;
@@ -679,6 +749,14 @@ body {
     color: #5b5b5b;
     font-size: 24px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.booklist_item a {
+  text-align: center;
 }
     #maincontent p{
         color: #5b5b5b;

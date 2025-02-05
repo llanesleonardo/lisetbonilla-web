@@ -14,7 +14,7 @@ const ResponsiveMenu = () => {
     <div className="menu-container">
       {/* Hamburger Icon */}
       <div className="hamburger-icon" onClick={toggleMenu}>
-        {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+        {isMenuOpen ? <FaTimes size={24} color="white" /> : <FaBars size={24} />}
       </div>
 
       {/* Sidebar Menu */}
@@ -26,6 +26,9 @@ const ResponsiveMenu = () => {
           <li>
             <Link to="/business-card" onClick={toggleMenu}>Business Card</Link>
           </li>
+          {/* <li>
+            <Link to="/buybooks" onClick={toggleMenu}>Books</Link>
+          </li> */}
           <li>
             <Link to="/webinar-1" onClick={toggleMenu}>Webinar</Link>
           </li>
@@ -41,6 +44,9 @@ const ResponsiveMenu = () => {
           <li>
             <Link to="/business-card" >Business Card</Link>
           </li>
+          {/* <li>
+            <Link to="/buybooks" >Books</Link>
+          </li> */}
           <li>
             <Link to="/webinar-1" >Webinar</Link>
           </li>

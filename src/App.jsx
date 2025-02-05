@@ -6,7 +6,7 @@ import BusinessCard from "./Views/BusinessCard.jsx"
 import WeeklyCoffeePage from "./Views/WeeklyCoffeePage"
 import Webinar1 from './Views/Webinar1.jsx';
 import Webinar1Success from './Views/Webinar1Success.jsx';
-
+import BuyBooks from './Views/BuyBooks.jsx';
 
 function App() {
 
@@ -20,6 +20,7 @@ function App() {
             <Route exact path="/webinar-1" element={<Webinar1 />} />
             <Route exact path="/weeklycoffee" element={<WeeklyCoffeePage />} />
             <Route exact path="/webinar-1-success" element={<Webinar1Success />} />
+            <Route exact path="/buybooks" element={<BuyBooks />} />
           </Routes>
         </Layout>
       </Router>
