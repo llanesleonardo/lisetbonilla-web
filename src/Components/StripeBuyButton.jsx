@@ -4,7 +4,7 @@ const StripeBuyButton = ({ buyButtonId }) => {
         dangerouslySetInnerHTML={{
           __html: `<stripe-buy-button
               buy-button-id="${buyButtonId}"
-              publishable-key="${import.meta.env.VITE_STRIPE_PUBLIC_KEY}">
+              publishable-key="pk_live_51QotG5Dfn64ZgLlpihdZ9ItpLQ9GAjNyPHqbVP6DkaUegP7PyKdFHl89Oqhc9lsNIVEtp6zE0Y6dzukqPe1sBJOq007VdtVSMd">
             </stripe-buy-button>`,
         }}
       />
