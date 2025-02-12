@@ -4,7 +4,7 @@ const StripeBuyButton = ({ buyButtonId }) => {
         dangerouslySetInnerHTML={{
           __html: `<stripe-buy-button
               buy-button-id="${buyButtonId}"
-              publishable-key=${process.env.stripek}>
+              publishable-key="${process.env.stripek}">
             </stripe-buy-button>`,
         }}
       />
