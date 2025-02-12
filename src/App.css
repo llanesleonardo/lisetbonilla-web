@@ -49,6 +49,15 @@ body {
     width: 100%
 }
 
+.books{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 .titlebooks{
     
    
@@ -83,11 +92,12 @@ body {
 
 
 #maincontentwrapper{
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
+    
 }
 
 #maincontent {
@@ -614,14 +624,15 @@ body {
   }
 
 
-  .bookwrapper{
+  .bookwrapper {
+    width: 350px; /* Adjust width */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 30px;
-    padding: 100px 0px;
-    border-bottom: 2px solid #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
   }
 
   .bookdesc{
@@ -677,14 +688,15 @@ body {
 @media (min-width: 992px) { 
    
     
-  .bookwrapper{
+  .bookwrapper {
+    width: 525px; /* Adjust width */
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 30px;
-    padding: 20px 0px;
-    border-bottom: 2px solid #f9f9f9;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
   }
 
   #maincontentbooks{
@@ -730,6 +742,14 @@ body {
         width: 1200px;
     }
     
+    .books{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
 
     .titlebooks p{
         background-color:#d82f87 ;

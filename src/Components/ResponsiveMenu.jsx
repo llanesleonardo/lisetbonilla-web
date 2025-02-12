@@ -26,9 +26,9 @@ const ResponsiveMenu = () => {
           <li>
             <Link to="/business-card" onClick={toggleMenu}>Business Card</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to="/buybooks" onClick={toggleMenu}>Books</Link>
-          </li> */}
+          </li>
           <li>
             <Link to="/webinar-1" onClick={toggleMenu}>Webinar</Link>
           </li>
@@ -44,9 +44,9 @@ const ResponsiveMenu = () => {
           <li>
             <Link to="/business-card" >Business Card</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to="/buybooks" >Books</Link>
-          </li> */}
+          </li>
           <li>
             <Link to="/webinar-1" >Webinar</Link>
           </li>

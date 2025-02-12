@@ -11,6 +11,7 @@ import portada2 from "../assets/portada2.png";
 import portada3 from "../assets/portada3.png";
 import portada4 from "../assets/portada4.jpg";
 import ResponsiveMenu from "../Components/ResponsiveMenu";
+import Books from "../Components/Books";
 
 const HomePage = () => {
   return (
@@ -22,7 +23,7 @@ const HomePage = () => {
             <img src={header} className="headerimg" />
           </div>
         </div>
-        <div id="bookswrapper">
+        {/* <div id="bookswrapper">
           <div id="books">
             <div className="titlebooks">
               <p>Cuenta con cuatro libros:</p>
@@ -32,27 +33,19 @@ const HomePage = () => {
             <ul className="booklist">
               <li className="booklist_item">
                 <img src={portada1} className="portadas" />
-                {/* <a href="#" className="stripebutton2">
-                  Adquiérelo aquí
-                </a> */}
+
               </li>
               <li className="booklist_item">
                 <img src={portada2} className="portadas" />
-                {/* <a href="#" className="stripebutton2">
-                  Adquiérelo aquí
-                </a> */}
+           
               </li>
               <li className="booklist_item">
                 <img src={portada3} className="portadas" />
-                {/* <a href="#" className="stripebutton2">
-                  Adquiérelo aquí
-                </a> */}
+      
               </li>
               <li className="booklist_item">
                 <img src={portada4} className="portadas" />
-                {/* <a href="#" className="stripebutton2">
-                  Adquiérelo aquí
-                </a> */}
+
               </li>
             </ul>
             <div></div>
@@ -81,6 +74,9 @@ const HomePage = () => {
               <p> {`Mándame WhatsApp para adquirir tu libro.`}</p>
             </div>
           </div>
+        </div>  */}
+        <div>
+        <Books />
         </div>
         <div id="maincontentwrapper">
           <div id="maincontent">

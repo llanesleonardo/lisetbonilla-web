@@ -3,11 +3,49 @@ import portada1 from '../assets/portada1.png';
 import portada2 from '../assets/portada2.png';
 import portada3 from '../assets/portada3.png';
 import portada4 from '../assets/portada4.jpg';
+import StripeBuyButton from "./StripeBuyButton";
 
 export default function Books() {
-  return (
-    <div className='books'>
-        <div className='bookwrapper'>
+ 
+    const books = [
+        {
+          id: "buy_btn_1QrWWADfn64ZgLlpAgn8EI6v",
+          title: "Enlas manos del padre",
+        },
+        {
+          id: "buy_btn_1QrWdnDfn64ZgLlpAyAcbLDW",
+          title: "Vive tu esencia de poder",
+        },
+        {
+          id: "buy_btn_1QrWemDfn64ZgLlpChIwwwL0",
+          title: "Nueva y atractiva",
+        },
+        {
+          id: "buy_btn_1QqKPCDfn64ZgLlpENXRMHgg",
+          title: "Reinvéntate en 7 pasos",
+        },
+      ];
+ 
+    return (
+    <div className='books'>       
+     {books.map((book) => (
+        <div key={book.id} class="bookwrapper" style={{backgroundColor:'transparent',border:'none'}}>
+          <div >
+          <h2 style={{color:'black'}}>{book.title}</h2>
+          <StripeBuyButton buyButtonId={book.id} />
+          </div>
+          
+        </div>
+      ))}
+        
+    </div>
+  )
+}
+
+
+/**
+ * <div className='bookwrapper'>
+
             <div className='book'>
                 <img src={portada1} className="portadas"/>
             </div>
@@ -21,7 +59,9 @@ export default function Books() {
                 <a href="#" className='stripebutton'>
                 Adquiérelo aquí
                 </a>
+
             </div>
+
         </div>
         <div className='bookwrapper'>
             <div className='book'>
@@ -67,6 +107,5 @@ export default function Books() {
                 </a>
             </div>
         </div>
-    </div>
-  )
-}
+ * 
+ */
