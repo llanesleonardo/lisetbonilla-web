@@ -10,7 +10,7 @@ export default function Books() {
     const books = [
         {
           id: "buy_btn_1QrWWADfn64ZgLlpAgn8EI6v",
-          title: "Enlas manos del padre",
+          title: "En las manos del padre",
         },
         {
           id: "buy_btn_1QrWdnDfn64ZgLlpAyAcbLDW",

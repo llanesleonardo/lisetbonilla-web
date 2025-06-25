@@ -24,13 +24,14 @@ const ResponsiveMenu = () => {
             <Link to="/" onClick={toggleMenu}>Inicio</Link>
           </li>
           <li>
-            <Link to="/business-card" onClick={toggleMenu}>Business Card</Link>
-          </li>
-          <li>
             <Link to="/buybooks" onClick={toggleMenu}>Libros</Link>
           </li>
           <li>
-            <Link to="/webinar-1" onClick={toggleMenu}>Webinar</Link>
+            <Link to="/business-card" onClick={toggleMenu}>Business Card</Link>
+          </li>
+
+          <li>
+           {/* <Link to="/webinar-1" onClick={toggleMenu}>Webinar</Link>*/}
           </li>
         </ul>
       </div>
@@ -42,13 +43,14 @@ const ResponsiveMenu = () => {
             <Link to="/" >Inicio</Link>
           </li>
           <li>
-            <Link to="/business-card" >Business Card</Link>
-          </li>
-          <li>
             <Link to="/buybooks" >Libros</Link>
           </li>
           <li>
-            <Link to="/webinar-1" >Webinar</Link>
+            <Link to="/business-card" >Business Card</Link>
+          </li>
+
+          <li>
+          {/* <Link to="/webinar-1" >Webinar</Link>*/}
           </li>
         </ul>
       </nav>

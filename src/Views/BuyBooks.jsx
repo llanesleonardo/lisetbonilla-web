@@ -21,6 +21,46 @@ export default function BuyBooks() {
       <div id='maincontentbooks'>
       <Books />
       </div>
+          <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                marginTop: "32px",
+                marginBottom: "50px",
+              }}
+            >
+              <a
+                href="https://chat.whatsapp.com/HNXRtl536nX4Dd8RCjcIru"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  backgroundColor: "#d82f87",
+                  color: "#fff",
+                  padding: "14px 28px",
+                  borderRadius: "8px",
+                  textDecoration: "none",
+                  fontWeight: "bold",
+                  fontSize: "1.1em",
+                  boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                  transition: "background 0.2s",
+                }}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 32 32"
+                  style={{ marginRight: "12px" }}
+                  fill="#fff"
+                >
+                  <path d="M16 2.938c-7.285 0-13.188 5.903-13.188 13.188 0 2.326.602 4.6 1.745 6.593l-1.823 6.678a1.05 1.05 0 0 0 1.293 1.293l6.678-1.823A13.11 13.11 0 0 0 16 29.25c7.285 0 13.188-5.903 13.188-13.188S23.285 2.938 16 2.938zm0 2.125c6.105 0 11.063 4.958 11.063 11.063 0 6.105-4.958 11.062-11.063 11.062-2.095 0-4.15-.594-5.903-1.726a1.062 1.062 0 0 0-.697-.137l-5.032 1.373 1.373-5.032a1.062 1.062 0 0 0-.137-.697A10.91 10.91 0 0 1 4.937 16c0-6.105 4.958-11.063 11.063-11.063zm-4.25 6.375c-.378 0-.75.116-1.062.344-.776.573-1.27 1.53-1.27 2.5 0 2.957 2.406 5.893 4.344 7.406 1.938 1.513 3.86 2.094 4.75 2.094.97 0 1.927-.494 2.5-1.27a1.063 1.063 0 0 0-.125-1.406l-2.125-2.125a1.062 1.062 0 0 0-1.5 0l-.5.5c-.353.353-.917.353-1.27 0l-2.125-2.125c-.353-.353-.353-.917 0-1.27l.5-.5a1.062 1.062 0 0 0 0-1.5l-2.125-2.125a1.063 1.063 0 0 0-.75-.312z" />
+                </svg>
+                Únete al Grupo Esencia en WhatsApp
+              </a>
+            </div>
                <div id="businesscontactwrapper">
                <div id="businesscontact">
          {/**

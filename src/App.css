@@ -15,7 +15,7 @@ body {
 }
 
 #headerwrapper{
-    background-color: #e6e5e6;
+   /* background-color: #e6e5e6;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,6 +30,10 @@ body {
 .headerimg{
     width: 100%;
 
+}
+
+.title-desc{
+  color:#d82f87
 }
 
 #container{
@@ -90,6 +94,13 @@ body {
     padding-left:0 ;
 }
 
+.bookscontentwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
 
 #maincontentwrapper{
     display: flex;
@@ -738,9 +749,11 @@ body {
         max-width: 1200px;
     }
    
-    #books,.booklist_wrapper{
+    .booklist_wrapper{
         width: 1200px;
     }
+
+    
     
     .books{
       display: flex;
@@ -749,6 +762,8 @@ body {
       align-items: center;
       gap: 10px;
       flex-wrap: wrap;
+      max-width: 1200px;
+      margin: auto;
     }
 
     .titlebooks p{
