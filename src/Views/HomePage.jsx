@@ -20,64 +20,10 @@ const HomePage = () => {
         <div id="headerwrapper">
           <ResponsiveMenu />
           <div id="header" style={{ marginTop: "10px", borderRadius: "50px" }}>
-            <img src={header} className="headerimg"style={{ border: "5px solid #d82e87",marginTop: "10px"}} />
+            <img src={header} className="headerimg"style={{ border: "5px solid #d82e87",margin: "10px -4px"}} />
           </div>
         </div>
-        {/* <div id="bookswrapper">
-          <div id="books">
-            <div className="titlebooks">
-              <p>Cuenta con cuatro libros:</p>
-            </div>
-          </div>
-          <div className="booklist_wrapper">
-            <ul className="booklist">
-              <li className="booklist_item">
-                <img src={portada1} className="portadas" />
 
-              </li>
-              <li className="booklist_item">
-                <img src={portada2} className="portadas" />
-           
-              </li>
-              <li className="booklist_item">
-                <img src={portada3} className="portadas" />
-      
-              </li>
-              <li className="booklist_item">
-                <img src={portada4} className="portadas" />
-
-              </li>
-            </ul>
-            <div></div>
-            <div className="waContainerpc">
-              <a
-                className="waLink"
-                target="_blank"
-                href="https://wa.me/15209919203?text=Estoy%20interesad@%20en%20alguno%20de%20tus%20libros"
-              >
-                <span>
-                  <img className="waImg" src={wa} />{" "}
-                </span>
-              </a>
-              <p> {`Mándame WhatsApp para adquirir tu libro.`}</p>
-            </div>
-            <div className="waContainermovil">
-              <a
-                className="waLink"
-                target="_blank"
-                href="https://wa.me/15209919203?text=Estoy%20interesad@%20en%20alguno%20de%20tus%20libros"
-              >
-                <span>
-                  <img className="waImg" src={wa} />{" "}
-                </span>
-              </a>
-              <p> {`Mándame WhatsApp para adquirir tu libro.`}</p>
-            </div>
-          </div>
-        </div>  */}
-        <div id="bookscontentwrapper">
-          <Books />
-        </div>
         <div id="maincontentwrapper" >
           <div
             id="maincontent"
@@ -182,7 +128,61 @@ estás a punto de iniciar.
             </div>
           </div>
         </div>
+        {/* <div id="bookswrapper">
+          <div id="books">
+            <div className="titlebooks">
+              <p>Cuenta con cuatro libros:</p>
+            </div>
+          </div>
+          <div className="booklist_wrapper">
+            <ul className="booklist">
+              <li className="booklist_item">
+                <img src={portada1} className="portadas" />
 
+              </li>
+              <li className="booklist_item">
+                <img src={portada2} className="portadas" />
+           
+              </li>
+              <li className="booklist_item">
+                <img src={portada3} className="portadas" />
+      
+              </li>
+              <li className="booklist_item">
+                <img src={portada4} className="portadas" />
+
+              </li>
+            </ul>
+            <div></div>
+            <div className="waContainerpc">
+              <a
+                className="waLink"
+                target="_blank"
+                href="https://wa.me/15209919203?text=Estoy%20interesad@%20en%20alguno%20de%20tus%20libros"
+              >
+                <span>
+                  <img className="waImg" src={wa} />{" "}
+                </span>
+              </a>
+              <p> {`Mándame WhatsApp para adquirir tu libro.`}</p>
+            </div>
+            <div className="waContainermovil">
+              <a
+                className="waLink"
+                target="_blank"
+                href="https://wa.me/15209919203?text=Estoy%20interesad@%20en%20alguno%20de%20tus%20libros"
+              >
+                <span>
+                  <img className="waImg" src={wa} />{" "}
+                </span>
+              </a>
+              <p> {`Mándame WhatsApp para adquirir tu libro.`}</p>
+            </div>
+          </div>
+        </div>  */}
+        <div id="bookscontentwrapper">
+          <Books />
+        </div>
         <div id="businesscontactwrapper">
           <div id="businesscontact">
             {/**

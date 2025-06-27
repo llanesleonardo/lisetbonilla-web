@@ -777,7 +777,8 @@ body {
 
     #maincontent {
         background-color: #f3e9ee;  
-        width: 1160px;
+        width: 1170px;
+        max-width: 1170px;
         padding: 16px;
    }
 .booklist_item{
